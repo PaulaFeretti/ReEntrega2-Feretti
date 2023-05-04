@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    }
+
+    @media (min-width: 992px) {
+        body{
+            text-align: left;
+        }
+    }
+
+    /* -----------Pagina Inicio----------- */
+
+    .bg-body-tertiary{
+        background-color: #ffffff;
+    }
+    .navbar-nav :hover{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #000; 
+    }
+    .logo{
+        width: 60px;
+        
+    }
+    .article-title {
+        text-align: center;
+        background: linear-gradient(289.68deg, #0ec6ad -10.45%, #d53e0f 115.75%);
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        border-bottom: 5px solid #fff;
+    }
+    .d-block-w-100{
+       padding: 2% 15% 2% 15%;
+        width: 100%;
+        height: 500px;
+
+    }
+    .body-principal-inicio{
+        background: linear-gradient(#dfdfdf, #acacac);
+    }
+    body{
+        background-color: rgb(238, 238, 240);
+        color: #000;
+        font-size: 21px;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: left;
+        
+    }
+
+    ul{
+        text-align: left;
+    }
+    .grid-container {
+        display: grid;
+        /* Definir la cantidad de filas y su tamaño (altura) | renglones */
+        grid-template-rows: repeat(4, 200px);
+        /* Definir la cantidad de columnas y su tamaño (ancho) */
+        grid-template-columns: repeat(5, 1fr); 
+    }
+
+
+    .grid-img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .uno {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 5; 
+        padding: 7% 20% 7% 8%;
+         
+    }
+    
+    .dos {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        padding: 7% 20% 2% 0%;
+    }
+    
+    .tres {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        padding: 0% 20% 7% 0%;
+    } 
+
+    .cuatro {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        padding: 0% 10% 2% 5%;
+
+    } 
+    .cuatroimg {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 4;
+        grid-row-end: 6;
+        padding: 0% 10% 2% 10%;
+    } 
+    
+    .cinco {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        padding:  7% 10% 2% 5%;
+    } 
+    .cinco2 {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 6;
+        padding:  12% 10% 2% 5%;
+    } 
+    .seisimg {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 6;
+        padding:  7% 5% 2% 5%;
+    } 
+    
+
+    .siete {
+        grid-column-start:1 ;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 5;
+        padding: 7% 10% 2% 5%;
+    } 
+
+    .ocho{
+        grid-column-start:1 ;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        padding: 0% 10% 2% 5%;
+    }
+    .ochoimg{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        padding: 0% 0% 10% 0%;
+    }
+
+    .img-footer{
+        width: 100%;
+    } 
+    
+    
+    /* -----------Pagina Ciencia----------- */
+    .article-title-ciencia {
+        text-align: center;
+        background: linear-gradient(289.68deg, #c6ebd5 -10.45%, #117c6f 115.75%);
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        border-bottom: 5px solid #fff;
+    }
+
+    .grid-container-ciencia {
+        display: grid;
+        /* Definir la cantidad de filas y su tamaño (altura) | renglones */
+        grid-template-rows: repeat(21, 200px);
+        /* Definir la cantidad de columnas y su tamaño (ancho) */
+        grid-template-columns: repeat(6, 1fr); 
+    }
+
+    .grid-img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .item-ciencia-uno {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 5; 
+        padding: 7% 5% 7% 10%;
+         
+    }
+
+    .item-ciencia-2uno {
+        grid-column-start: 4;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 5; 
+        padding: 7% 10% 7% 0%;
+         
+    }
+
+    .item-ciencia-dos {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 7; 
+        padding: 0% 10% 7% 5%;
+         
+    }
+    .item-ciencia-2dos {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 7;
+        grid-row-end: 10; 
+        padding: 5% 13% 7% 13%;
+         
+    }
+
+    .item-ciencia-tres {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 10;
+        grid-row-end: 12; 
+        padding: 3% 5% 7% 5%;
+         
+    }
+    .item-ciencia-1tres {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 10;
+        grid-row-end: 12; 
+        padding: 7% 10% 0% 0%;
+         
+    }
+    .item-ciencia-2tres {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start:12 ;
+        grid-row-end: 14; 
+        padding: 7% 10% 7% 10%;
+         
+    }
+
+    .item-ciencia-cuatro {
+       grid-column-start: 1;
+       grid-column-end: 7;
+       grid-row-start: 14;
+       grid-row-end: 22;
+       padding: 10% 10% 7% 10%;
+         
+    }
+    
+
+
+    
+
+    /* -----------Pagina tecnologia----------- */
+    .article-title-tecnologia {
+        text-align: center;
+        background: linear-gradient(289.68deg, #ecd4ea -10.45%, #511f52 115.75%);
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        border-bottom: 5px solid #fff;
+    }
+    .body-principal-tecnologia{
+        background: linear-gradient(289.68deg, #ecd4ea -10.45%, #511f52 115.75%);
+
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .row{
+        text-align: left;
+        padding: 2% 0% 2% 0%;
+    }
+    
+    .video-tecnologia{
+        position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    }
+
+    .body-tecnologia{
+        text-align: left;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .section-tecnologia-uno{
+        margin-top: 10%;
+    }
+
+
+
+    /* -----------Pagina ingenieria----------- */
+    .article-title-ingenieria {
+        text-align: center;
+        background: linear-gradient(289.68deg, #fcaf67 -10.45%, #7e0306 115.75%);
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        border-bottom: 5px solid #fff;
+    }
+    
+    .body-principal-ingenieria{
+        background: linear-gradient(#d53e0f, #fcaf67);
+    }
+
+    .body-ingenieria{
+        text-align: left;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .section-ingenieria-uno{
+        margin-top: 10%;
+    }
+
+
+
+    /* -----------Pagina matematica----------- */
+    .article-title-matematica {
+        text-align: center;
+        background: linear-gradient(289.68deg, #bce6ff -10.45%, #015c92 115.75%);
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        border-bottom: 5px solid #fff;
+    }
+
+    .body-principal-matematica{
+        background: linear-gradient(#015c92, #bce6ff);
+        
+    }
+
+    .body-matematica{
+        text-align: left;
+        margin-left: 15%;
+        margin-right: 15%;
+
+    }
+    .section-matematica-uno{
+        margin-top: 10%;
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1 {
+    color: rgb(21, 200, 197);
+    margin-bottom: 2%;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.pag-ciencia {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    text-transform: uppercase;
+    color: rgb(255, 3, 3);
+}
+
+.pag-tecnologia {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    text-transform: uppercase;
+    color: rgb(16, 146, 38);
+}
+
+.pag-ingenieria {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    text-transform: uppercase;
+    color: rgb(15, 224, 239);
+}
+
+.pag-matematica {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    text-transform: uppercase;
+    color: rgb(11, 79, 240);
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+div img {
+    background-color: #333;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.p-futuro-stem {
+    text-align: center;
+    padding: 10% 5% 5% 10%;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+} */
