@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-size: 100%;
     vertical-align: baseline;
     }
 
@@ -28,19 +27,15 @@
         color: #fff;
         border-bottom: 5px solid #fff;
     }
-    .d-block-w-100{
-       padding: 2% 15% 2% 15%;
-        width: 100%;
-        height: 500px;
-    }
+    
     .body-principal-inicio{
         background: linear-gradient(#cdf1ea, #f18383);
     }
     body{
         background-color: rgb(238, 238, 240);
         color: #000;
-        font-size: 22px;
-        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 25px;
+        font-family: 'Roboto Condensed', sans-serif; 
         text-align: left; 
     }
     ul{
@@ -48,6 +43,7 @@
     }
     .grid-container {
         display: grid;
+        font-size: 27px;
         grid-template-rows: repeat(25, 200px);
         grid-template-columns: repeat(5, 1fr); 
     }
@@ -59,7 +55,7 @@
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 1;
-        grid-row-end: 5; 
+        grid-row-end: 7; 
         padding: 7% 5% 7% 15%;         
     }    
     .dos {
@@ -73,64 +69,107 @@
         grid-column-start: 4;
         grid-column-end: 6;
         grid-row-start: 3;
-        grid-row-end: 5;
+        grid-row-end: 6;
         padding: 0% 20% 7% 0%;
     } 
     .cuatro {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 5;
-        grid-row-end: 8;
-        padding: 5% 10% 2% 10%;
+        grid-row-start: 7;
+        grid-row-end: 11;
+        padding: 0% 10% 2% 10%;
     } 
     .cuatroimg {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 8;
-        grid-row-end: 10;
+        grid-row-start: 11;
+        grid-row-end: 13;
         padding: 0% 10% 0% 10%;
     }     
     .cinco {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 10;
-        grid-row-end: 12;
+        grid-row-start: 13;
+        grid-row-end: 16;
         padding:  4% 10% 2% 10%;
     } 
     .cinco2 {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 12;
-        grid-row-end: 14;
-        padding:  3% 10% 2% 10%;
+        grid-row-start: 16;
+        grid-row-end: 19;
+        padding:  10% 10% 2% 10%;
     } 
     .seisimg {
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 14;
-        grid-row-end: 16;
-        padding:  0% 0% 0% 0%;
+        grid-row-start: 19;
+        grid-row-end: 22;
+        padding: 15% 0% 0% 10%;
     } 
     .siete {
         grid-column-start: 1 ;
         grid-column-end: 5;
-        grid-row-start: 16;
-        grid-row-end: 20;
+        grid-row-start: 22;
+        grid-row-end: 27;
         padding: 7% 10% 2% 10%;
     } 
     .ocho{
         grid-column-start:1 ;
         grid-column-end: 5;
-        grid-row-start: 20;
-        grid-row-end: 22;
-        padding: 0% 10% 2% 10%;
+        grid-row-start: 27;
+        grid-row-end: 29;
+        padding: 00% 10% 2% 10%;
     }
     .ochoimg{
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 22;
-        grid-row-end: 25;
-        padding: 0% 0% 10% 0%;
+        grid-row-start: 29;
+        grid-row-end: 30;
+        padding: 0% 0% 5% 10%;
+    }
+    .gallery{
+        display: flex;
+        justify-content: center;
+    }
+    .gallery img{
+        width: 20%;
+        border-radius: 250px;
+    }
+    .img-three, .img-four, .img-one, .img-two{
+        position: right;
+    }
+    .img-one{
+        right: 40px;
+    }
+    .img-two{
+        right: 40px;
+    }
+    .img-three{
+        right: 40px;
+    }
+    .img-four{
+        right: 40px;
+    }
+    .img-one:hover{
+        transition: all 1s;
+        transform: translateX(20px);
+        cursor: pointer;
+    }
+    .img-two:hover{
+        transition: all 1s;
+        transform: translateX(20px);
+        cursor: pointer;
+    }
+    .img-three:hover{
+        transform: translateX(20px);
+        transition: all 1s;
+        cursor: pointer;
+    }
+    .img-four:hover{
+        transform: translateX(20px);
+        transition: all 1s;
+        cursor: pointer;
     }
      
     
@@ -152,8 +191,9 @@
         display: grid;
         grid-template-rows: repeat(21, 200px);
         grid-template-columns: repeat(6, 1fr); 
-        font-size: 22px;
-        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 25px;
+        font-family: 'Roboto Condensed', sans-serif; 
+        text-align: left; 
         background: linear-gradient( #c6ebd5 , #117c6f 115.75%);
     }
     .grid-img{
@@ -184,37 +224,37 @@
     .item-ciencia-2dos {
         grid-column-start: 1;
         grid-column-end: 6;
-        grid-row-start: 7;
+        grid-row-start: 8;
         grid-row-end: 10; 
-        padding: 5% 13% 7% 13%;
+        padding: 0% 13% 0% 13%;
     }
     .item-ciencia-tres {
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 6;
         grid-row-start: 10;
         grid-row-end: 12; 
-        padding: 3% 5% 7% 10%;  
+        padding: 5% 5% 7% 7%;  
     }
     .item-ciencia-1tres {
         grid-column-start: 4;
         grid-column-end: 6;
-        grid-row-start: 10;
-        grid-row-end: 12; 
-        padding: 7% 10% 0% 0%;
+        grid-row-start: 13;
+        grid-row-end: 16; 
+        padding: 0% 0% 0% 0%;
     }
     .item-ciencia-2tres {
         grid-column-start: 1;
-        grid-column-end: 6;
-        grid-row-start:12 ;
-        grid-row-end: 14; 
-        padding: 5% 10% 7% 5%;
+        grid-column-end: 4;
+        grid-row-start:13 ;
+        grid-row-end: 15; 
+        padding: 0% 7% 7% 7%;
     }
     .item-ciencia-cuatro {
        grid-column-start: 1;
        grid-column-end: 6;
-       grid-row-start: 14;
-       grid-row-end: 22;
-       padding: 10% 10% 7% 5%;    
+       grid-row-start: 16;
+       grid-row-end: 24;
+       padding: 5% 10% 7% 5%;    
     }
 
 
@@ -233,21 +273,15 @@
         width: 100%;
         height: 100%;
     }      
-    .video-tecnologia{
-        position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    text-align: center;
-    }
     .grid-container-tecnologia {
         width: 100%;
         margin: 0 auto;
         display: grid;
         grid-template-rows: repeat(29, 200px);
         grid-template-columns: repeat(5, 1fr); 
-        font-size: 22px;
-        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 25px;
+        font-family: 'Roboto Condensed', sans-serif; 
+        text-align: left; 
         background: linear-gradient( #e5d4f8 , #743dc0 );
     }
     .grid-img{
@@ -266,7 +300,7 @@
         grid-column-end: 5;
         grid-row-start: 3;
         grid-row-end: 6; 
-        padding: 0% 0% 0% 0%; 
+        padding: 5% 0% 0% 0%; 
     }
     .item-tecnologia-dos {
         grid-column-start: 1;
@@ -308,41 +342,41 @@
         grid-column-end: 5;
         grid-row-start: 16;
         grid-row-end: 19; 
-        padding: 5% 10% 5% 10%; 
+        padding: 7% 10% 5% 10%; 
     }
     .item-tecnologia-seis {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 19;
-        grid-row-end: 21; 
-        padding: 0% 5% 7% 10%; 
+        grid-row-end: 22; 
+        padding: 0% 5% 5% 10%; 
     }
     .item-tecnologia-siete {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 21;
-        grid-row-end: 22; 
-        padding: 0% 5% 7% 10%;
+        grid-row-start: 22;
+        grid-row-end: 24; 
+        padding: 5% 5% 7% 10%;
     }
     .item-tecnologia-ocho {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 22;
-        grid-row-end: 23; 
-        padding: 0% 5% 7% 10%; 
+        grid-row-start: 24;
+        grid-row-end: 26; 
+        padding: 3% 5% 0% 10%; 
     }
     .item-tecnologia-nueve {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 23;
-        grid-row-end: 24;
-        padding: 0% 5% 0% 10%;
+        grid-row-start: 26;
+        grid-row-end: 28;
+        padding: 3% 5% 5% 10%;
     } 
     .item-tecnologia-diez {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 25;
-        grid-row-end: 29; 
+        grid-row-start: 28;
+        grid-row-end: 33; 
         padding: 0% 5% 7% 10%; 
     }
     
@@ -364,10 +398,11 @@
         width: 100%;
         margin: 0 auto;
         display: grid;
-        grid-template-rows: repeat(33, 200px);
+        grid-template-rows: repeat(38, 200px);
         grid-template-columns: repeat(5, 1fr); 
-        font-size: 22px;
-        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 25px;
+        font-family: 'Roboto Condensed', sans-serif; 
+        text-align: left; 
         background: linear-gradient( #ffdfcd , #d53e0f );
     }
     .grid-img{
@@ -378,15 +413,15 @@
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 1;
-        grid-row-end: 4; 
+        grid-row-end: 5; 
         padding: 7% 5% 7% 10%; 
     }
     .item-ingenieria-2dos {
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
         grid-row-end: 7; 
-        padding: 10% 5% 0% 0%; 
+        padding: 0% 5% 0% 10%; 
     }
     .item-ingenieria-tres {
         grid-column-start: 1;
@@ -426,8 +461,8 @@
     .item-ingenieria-2seis {
         grid-column-start: 2;
         grid-column-end: 5;
-        grid-row-start: 18;
-        grid-row-end: 21; 
+        grid-row-start: 19;
+        grid-row-end: 22; 
         padding: 0% 5% 0% 0%; 
     }
     .item-ingenieria-siete {
@@ -435,14 +470,14 @@
         grid-column-end: 5;
         grid-row-start: 22;
         grid-row-end: 24; 
-        padding: 0% 5% 7% 10%;
+        padding: 5% 5% 7% 10%;
     }
     .item-ingenieria-ocho {
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 24;
+        grid-row-start: 25;
         grid-row-end: 34; 
-        padding: 0% 5% 7% 10%; 
+        padding: 5% 5% 7% 10%; 
     }
     
 
@@ -465,51 +500,52 @@
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(26, 200px);
-        font-size: 22px;
-        font-family: 'Roboto Condensed', sans-serif;
+        grid-template-rows: repeat(29, 200px);
+        font-size: 25px;
+        font-family: 'Roboto Condensed', sans-serif; 
+        text-align: left; 
         background: linear-gradient(289.68deg, #015c92 -10.45%, #bce6ff 115.75%);    
     }
     .item-matematica-uno{
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 1;
-        grid-row-end: 7; 
+        grid-row-end: 8; 
         padding: 7% 0% 7% 8%;
     }
     .item-matematica-dos{
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 7;
-        grid-row-end: 9; 
+        grid-row-start: 8;
+        grid-row-end: 10; 
         padding: 0% 0% 7% 8%;
     }
     .item-matematica-2dos{
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 9;
+        grid-row-start: 10;
         grid-row-end: 12; 
-        padding: 0% 15% 7% 15%;
+        padding: 0% 15% 0% 15%;
     }
     .item-matematica-tres{
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 12;
-        grid-row-end: 14; 
-        padding: 0% 0% 7% 8%;
+        grid-row-end: 15; 
+        padding: 5% 0% 7% 8%;
     }
     .item-matematica-cuatro{
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 14;
-        grid-row-end: 23; 
-        padding: 10% 0% 7% 8%;
+        grid-row-start: 15;
+        grid-row-end: 26; 
+        padding: 5% 0% 7% 8%;
     }
     .item-matematica-cinco{
         grid-column-start: 1;
         grid-column-end: 5;
-        grid-row-start: 24;
-        grid-row-end: 26; 
+        grid-row-start: 26;
+        grid-row-end: 30; 
         padding: 5% 0% 7% 8%;
     }
     
@@ -519,7 +555,7 @@
      /* --------------------- M O B I L E  --------------------*/
 
      /* ---------------- I N I C I O ----------------*/
-     @media screen and (max-width: 480px){
+     @media screen and (max-width: 767px){
         .grid-container {
             width: 100%;
             margin: 0 ;
@@ -919,7 +955,7 @@
     
     /*-------------------------- T A B L E T ---------------------------*/
     /* ---------------- I N I C I O ---------------- */ 
-    @media screen and (min-width: 481px) and (max-width: 768px){
+    @media screen and (min-width: 768px) and (max-width: 1023px){
         .grid-container {
             width: 100%;
             margin: 0 ;
@@ -935,78 +971,78 @@
             grid-column-start: 1;
             grid-column-end: 6;
             grid-row-start: 1;
-            grid-row-end: 5; 
+            grid-row-end: 7; 
             padding: 7% 10% 7% 8%;         
         }    
         .dos {
-            grid-column-start: 2;
-            grid-column-end: 5;
-            grid-row-start: 5;
-            grid-row-end: 7; 
-            padding: 7% 0% 2% 0%;
+            grid-column-start: 1;
+            grid-column-end: 6;
+            grid-row-start: 7;
+            grid-row-end: 8; 
+            padding: 3% 5% 2% 5%;
         }    
         .tres {
-            grid-column-start: 2;
-            grid-column-end: 5;
-            grid-row-start: 7;
-            grid-row-end: 9;
-            padding: 0% 0% 7% 0%;
+            grid-column-start: 1;
+            grid-column-end: 6;
+            grid-row-start: 8;
+            grid-row-end: 10;
+            padding: 0% 5% 7% 5%;
         } 
         .cuatro {
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 9;
-            grid-row-end: 12;
+            grid-row-start: 10;
+            grid-row-end: 15;
             padding: 0% 10% 2% 5%;
         } 
         .cuatroimg {
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 12;
-            grid-row-end: 14;
+            grid-row-start: 15;
+            grid-row-end: 17;
             padding: 5% 10% 2% 10%;
         }     
         .cinco {
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 14;
-            grid-row-end: 17;
+            grid-row-start: 17;
+            grid-row-end: 21;
             padding:  7% 10% 2% 5%;
         } 
         .cinco2 {
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 17;
-            grid-row-end: 19;
+            grid-row-start: 21;
+            grid-row-end: 25;
             padding:  0% 10% 2% 5%;
         } 
         .seisimg {
-            grid-column-start: 2;
-            grid-column-end: 5;
-            grid-row-start: 19;
-            grid-row-end: 21;
-            padding:  15% 0% 2% 0%;
+            grid-column-start: 1;
+            grid-column-end: 6;
+            grid-row-start: 25;
+            grid-row-end: 27;
+            padding:  5% 5% 5% 5%;
         } 
         .siete {
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 21;
-            grid-row-end: 26;
+            grid-row-start: 27;
+            grid-row-end: 34;
             padding: 7% 10% 2% 5%;
         } 
         .ocho{
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 26;
-            grid-row-end: 28;
+            grid-row-start: 34;
+            grid-row-end: 37;
             padding: 0% 10% 2% 5%;
         }
         .ochoimg{
-            grid-column-start: 2;
-            grid-column-end: 5;
-            grid-row-start: 28;
-            grid-row-end: 30;
-            padding: 15% 0% 10% 0%;
+            grid-column-start: 1;
+            grid-column-end: 6;
+            grid-row-start: 37;
+            grid-row-end: 39;
+            padding: 5% 5% 10% 5%;
         } 
             
         /* -------------- C I E N C I A -------------- */
@@ -1036,14 +1072,14 @@
             grid-column-end: 7;
             grid-row-start: 6;
             grid-row-end: 9;  
-            padding: 7% 5% 7% 7%;
+            padding: 0% 5% 7% 7%;
         }
         .item-ciencia-2dos {
             grid-column-start: 1;
             grid-column-end: 7;
             grid-row-start: 9;
             grid-row-end: 11;  
-            padding: 7% 13% 5% 13%;
+            padding: 7% 13% 0% 13%;
         }
         .item-ciencia-tres {
             grid-column-start: 1;
@@ -1120,19 +1156,19 @@
             grid-column-end: 7;
             grid-row-start: 10;
             grid-row-end: 12; 
-            padding: 0% 5% 7% 10%; 
+            padding: 5% 5% 7% 10%; 
         }
         .item-tecnologia-2cuatro {
             grid-column-start: 1;
             grid-column-end: 7;
-            grid-row-start: 12;
-            grid-row-end: 14; 
-            padding: 5% 10% 5% 10%; 
+            grid-row-start: 13;
+            grid-row-end: 15; 
+            padding: 0% 10% 0% 10%; 
         }
         .item-tecnologia-cinco {
             grid-column-start: 1;
             grid-column-end: 7;
-            grid-row-start: 14;
+            grid-row-start: 15;
             grid-row-end: 17; 
             padding: 5% 5% 7% 10%; 
         }
@@ -1141,7 +1177,7 @@
             grid-column-end: 7;
             grid-row-start: 17;
             grid-row-end: 19; 
-            padding: 5% 10% 5% 10%; 
+            padding: 7% 10% 5% 10%; 
         }
         .item-tecnologia-seis {
             grid-column-start: 1;
@@ -1155,7 +1191,7 @@
             grid-column-end: 7;
             grid-row-start: 22;
             grid-row-end: 24; 
-            padding: 5% 5% 5% 10%;
+            padding: 7% 5% 5% 10%;
         }
         .item-tecnologia-ocho {
             grid-column-start: 1;
@@ -1167,15 +1203,15 @@
         .item-tecnologia-nueve {
             grid-column-start: 1;
             grid-column-end: 7;
-            grid-row-start: 25;
-            grid-row-end: 27;
-            padding: 10% 5% 0% 9%;
+            grid-row-start: 26;
+            grid-row-end: 28;
+            padding: 5% 5% 0% 9%;
         } 
         .item-tecnologia-diez {
             grid-column-start: 1;
             grid-column-end: 7;
-            grid-row-start: 27;
-            grid-row-end: 33; 
+            grid-row-start: 28;
+            grid-row-end: 35; 
             padding: 5% 5% 7% 10%; 
         }
 
@@ -1196,70 +1232,70 @@
             grid-column-start: 1;
             grid-column-end: 6;
             grid-row-start: 1;
-            grid-row-end: 6; 
-            padding: 7% 5% 7% 10%; 
+            grid-row-end: 7; 
+            padding: 7% 5% 0% 10%; 
         }
         .item-ingenieria-2dos {
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 6;
-            grid-row-end: 8; 
-            padding: 0% 10% 0% 10%; 
+            grid-row-start: 7;
+            grid-row-end: 9; 
+            padding: 7% 10% 0% 10%; 
         }
         .item-ingenieria-tres {
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 8;
-            grid-row-end: 12; 
+            grid-row-start: 9;
+            grid-row-end: 14; 
             padding: 7% 5% 7% 10%; 
         }
         .item-ingenieria-cuatro {
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 12;
-            grid-row-end: 15; 
+            grid-row-start: 14;
+            grid-row-end: 18; 
             padding: 7% 5% 7% 10%; 
         }
         .item-ingenieria-cinco {
             grid-column-start: 1;
             grid-column-end:6;
-            grid-row-start: 15;
-            grid-row-end: 17; 
+            grid-row-start: 18;
+            grid-row-end: 20; 
             padding: 5% 5% 7% 10%; 
         }
         .item-ingenieria-2cinco {
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 17;
-            grid-row-end: 19; 
+            grid-row-start: 20;
+            grid-row-end: 22; 
             padding: 5% 5% 5% 5%; 
         }
         .item-ingenieria-seis {
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 19;
-            grid-row-end: 22; 
+            grid-row-start: 22;
+            grid-row-end: 26; 
             padding: 5% 5% 7% 10%; 
         }
         .item-ingenieria-2seis {
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 22;
-            grid-row-end: 24; 
+            grid-row-start: 26;
+            grid-row-end: 28; 
             padding: 5% 5% 5% 5%; 
         }
         .item-ingenieria-siete {
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 24;
-            grid-row-end: 27; 
+            grid-row-start: 28;
+            grid-row-end: 32; 
             padding: 5% 5% 7% 10%;
         }
         .item-ingenieria-ocho {
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 27;
-            grid-row-end: 43; 
+            grid-row-start: 32;
+            grid-row-end: 45; 
             padding: 5% 5% 7% 10%; 
         }
         /* --------------- M A T E M A T I C A --------------- */
@@ -1268,7 +1304,7 @@
             margin: 0 auto;
             display: grid;
             grid-template-columns: repeat(5, 1fr);
-            grid-template-rows: repeat(42, 200px);
+            grid-template-rows: repeat(29, 200px);
             font-size: 22px;
             background: linear-gradient(289.68deg, #015c92 -10.45%, #bce6ff 115.75%);    
         }
@@ -1284,35 +1320,39 @@
             grid-column-end: 6;
             grid-row-start: 11;
             grid-row-end: 14; 
-            padding: 0% 10% 7% 8%;
+            padding: 5% 10% 7% 8%;
         }
         .item-matematica-2dos{
             grid-column-start: 1;
             grid-column-end: 6;
             grid-row-start: 14;
-            grid-row-end: 17; 
-            padding: 0% 15% 0% 15%;
+            grid-row-end: 16; 
+            padding: 0% 5% 0% 5%;
         }
         .item-matematica-tres{
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 17;
-            grid-row-end: 21; 
+            grid-row-start: 16;
+            grid-row-end: 20; 
             padding: 7% 10% 7% 8%;
         }
         .item-matematica-cuatro{
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 21;
-            grid-row-end: 39; 
-            padding: 10% 10% 7% 8%;
+            grid-row-start: 20;
+            grid-row-end: 35; 
+            padding: 5% 10% 7% 8%;
         }
         .item-matematica-cinco{
             grid-column-start: 1;
             grid-column-end: 6;
-            grid-row-start: 39;
-            grid-row-end: 43; 
+            grid-row-start: 35;
+            grid-row-end: 38; 
             padding: 0% 10% 7% 8%;
         }
     }
+    /* @media screen and (min-width: 1023px) and (max-width: 1829px){
+
+    } */
+
     
