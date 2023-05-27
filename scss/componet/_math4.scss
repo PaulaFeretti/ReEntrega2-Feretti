@@ -65,7 +65,7 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(29, 200px);
-        font-size: nth($font-size, 3);
+        font-size: nth($font-size, 4);
         background: linear-gradient(289.68deg, #015c92 -10.45%, #bce6ff 115.75%);    
     }
     .item-matematica-uno{

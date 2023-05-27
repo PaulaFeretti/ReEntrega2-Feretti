@@ -10,6 +10,7 @@
 section{
     background: linear-gradient( #ffdfcd , #d53e0f );
     display: grid;
+}
     .grid-container-ingenieria{
         @include grilla(grid, repeat(38, 200px), repeat(5, 1fr));
         font-size: nth($font-size, 1);
@@ -38,7 +39,6 @@ section{
             grid-row-end: 7; 
             padding: 0% 5% 0% 10%; 
         }
-     }
     
         .item-ingenieria-tres {
             grid-column-start: 1;
